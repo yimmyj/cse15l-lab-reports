@@ -10,5 +10,16 @@ To remotely connect to the CSE15L, enter the command *ssh cs15lwi23auw@ieng6.ucs
 
 ## Trying out some commands
 
-Once you are connected to the remote servers, you can execute commands on them.
+Once you are connected to the remote computer, you can execute commands on them and access their files. I tried general commands such as:
+- *cd* to change directory
+- *pwd* to see my current directory
+- *ls* to list all files and folders in the current directory
+
+As well as more specific ones such as:
+-*cat /home/linux/ieng6/cs15lwi23/public/hello.txt* to print the contents of a file named **hello.txt**
+-*cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/* to copy that same file
+-*ls -a* to view hidden files in the current directory
+
+Most of these commands are demonstrated in the following screenshots:
+<img width="994" alt="Screen Shot 2023-01-12 at 3 15 36 PM" src="https://user-images.githubusercontent.com/69327109/212201333-2db579a2-29fb-412c-840f-f88ff8d5e69f.png">
 <img width="706" alt="Screen Shot 2023-01-12 at 2 44 20 PM" src="https://user-images.githubusercontent.com/69327109/212197305-1b03fe90-4ed8-438a-b78f-046e6e3d8fda.png">
