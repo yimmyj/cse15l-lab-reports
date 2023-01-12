@@ -5,7 +5,7 @@ To install VSCode, first go to https://code.visualstudio.com/download. Select Wi
 
 ## Remotely Connecting
 
-To remotely connect to the CSE15L, enter the command *ssh cs15lwi23auw@ieng6.ucsd.edu* into your terminal, where cs15lwi23auw is replaced by your own username (in my case, cs15lwi23auw is my username). You will be prompted to enter your password, which you should have set beforehand (if you need to reset the password, visit https://sdacs.ucsd.edu/cgi-bin/gpquery. Afterwards, you should see the below message show on your terminal, which confirms that you've connected to the remote server.
+To remotely connect to the CSE15L, enter the command *ssh cs15lwi23auw@ieng6.ucsd.edu* into your terminal, where cs15lwi23auw is replaced by your own username (in my case, cs15lwi23auw is my username). You will be prompted to enter your password, which you should have set beforehand (if you need to reset the password, visit https://sdacs.ucsd.edu/cgi-bin/gpquery). Afterwards, you should see the below message show on your terminal, which confirms that you've connected to the remote server.
 <img width="681" alt="Screen Shot 2023-01-12 at 2 47 09 PM" src="https://user-images.githubusercontent.com/69327109/212197592-37d1ee54-4643-4b49-9d06-52eb071f260d.png">
 
 ## Trying out some commands
