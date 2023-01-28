@@ -21,7 +21,6 @@ As well as more specific ones such as:
 - ```ls -a``` to view hidden files in the current directory
 
 Most of these commands are demonstrated in the following screenshots:
-<img width="994" alt="Screen Shot 2023-01-12 at 3 15 36 PM" src="https://user-images.githubusercontent.com/69327109/212201333-2db579a2-29fb-412c-840f-f88ff8d5e69f.png">
 <img width="1218" alt="Screen Shot 2023-01-28 at 12 59 48 PM" src="https://user-images.githubusercontent.com/69327109/215290901-c9a22a9f-7ed3-4a2b-9a42-af16f30075a0.png">
 <img width="1077" alt="Screen Shot 2023-01-28 at 1 00 13 PM" src="https://user-images.githubusercontent.com/69327109/215290906-8e698aa5-2284-409b-b103-d5c9dc33ba76.png">
 
