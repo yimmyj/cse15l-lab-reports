@@ -67,7 +67,8 @@ The field of the class changed by this request is the ```display``` String, whic
 
 We are using JUnit to test the buggy ```reverseInPlace``` method, which returns the average of the elements in the array after excluding its lowest element. Below is a test that fails:
 
-```import static org.junit.Assert.*;
+```
+import static org.junit.Assert.*;
 import org.junit.*;
 
 public class ArrayTests {
