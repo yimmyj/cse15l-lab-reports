@@ -44,4 +44,11 @@ Here are two sample HTTP requests:
 
 <img width="699" alt="Screen Shot 2023-01-28 at 8 34 00 PM" src="https://user-images.githubusercontent.com/69327109/215305069-47497de3-c0f5-4ff2-bf6e-40fbd48857b3.png">
 
+The method called by this request is ```handleRequest```. The relevant argument to this method is ```url```, which is a Java URI object. Relevant fields of  the class include:
+-the ```display``` String, which is empty
+-the ```url``` URI, which is set to ```localhost:2023/add-message?s=Hello```;. 
+-an array of Strings named ```parameters```, which is initialized as ```["s", "Hello"]```
+
+The field of class changed by this request is the ```display``` String, which is changed to "Hello".
+
 <img width="489" alt="Screen Shot 2023-01-28 at 8 34 15 PM" src="https://user-images.githubusercontent.com/69327109/215305078-9b7a0fde-3912-407d-b921-7bd04e8b0fff.png">
