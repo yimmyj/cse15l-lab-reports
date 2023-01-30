@@ -50,7 +50,7 @@ The method called by this request is ```handleRequest```. The relevant argument 
 - the ```url``` URI, which is set to ```localhost:2023/add-message?s=hello world```;. 
 - an array of Strings named ```parameters```, which is initialized as ```["s", "hello world"]```
 
-The field of class changed by this request is the ```display``` String, which is changed to "hello world".
+The field of the class changed by this request is the ```display``` String, which is changed to "hello world".
 
 ---
 <img width="489" alt="Screen Shot 2023-01-28 at 8 34 15 PM" src="https://user-images.githubusercontent.com/69327109/215305078-9b7a0fde-3912-407d-b921-7bd04e8b0fff.png">
@@ -60,7 +60,7 @@ The method called by this request is ```handleRequest```. The relevant argument 
 - the ```url``` URI, which is set to ```localhost:2023/add-message?s=goodbye world```;. 
 - an array of Strings named ```parameters```, which is initialized as ```["s", "goodbye world"]```
 
-The field of class changed by this request is the ```display``` String, which is changed to ```"hello world" + \n + "goodbye world"```.
+The field of the class changed by this request is the ```display``` String, which is changed to ```"hello world" + \n + "goodbye world"```.
 
 ---
 
