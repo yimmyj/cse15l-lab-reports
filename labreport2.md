@@ -1,3 +1,7 @@
+## PART ONE
+
+Here's the code lol
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -35,6 +39,9 @@ class StringServer {
     }
 }
 ```
-Here are two sample HTTP requests:/
-<img width="699" alt="Screen Shot 2023-01-28 at 8 34 00 PM" src="https://user-images.githubusercontent.com/69327109/215305069-47497de3-c0f5-4ff2-bf6e-40fbd48857b3.png">/
+
+Here are two sample HTTP requests:
+
+<img width="699" alt="Screen Shot 2023-01-28 at 8 34 00 PM" src="https://user-images.githubusercontent.com/69327109/215305069-47497de3-c0f5-4ff2-bf6e-40fbd48857b3.png">
+
 <img width="489" alt="Screen Shot 2023-01-28 at 8 34 15 PM" src="https://user-images.githubusercontent.com/69327109/215305078-9b7a0fde-3912-407d-b921-7bd04e8b0fff.png">
