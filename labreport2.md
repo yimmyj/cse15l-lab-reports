@@ -1,7 +1,7 @@
 # Lab Report 2
 ## Part One
 
-Below is the code for the String Server:
+Below is the code I wrote for StringServer:
 
 ```
 import java.io.IOException;
