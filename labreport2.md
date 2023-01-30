@@ -82,7 +82,8 @@ public class ArrayTests {
 
 And here is a test that passes:
 
-```import static org.junit.Assert.*;
+```
+import static org.junit.Assert.*;
 import org.junit.*;
 
 public class ArrayTests {
