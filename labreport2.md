@@ -62,8 +62,6 @@ The method called by this request is ```handleRequest```. The relevant argument 
 
 The field of the class changed by this request is the ```display``` String, which is changed to ```"hello world" + \n + "goodbye world"```.
 
----
-
 ## Part Two
 
 We are using JUnit to test the buggy ```reverseInPlace``` method, which returns the average of the elements in the array after excluding its lowest element.``` Below is a test that fails:
@@ -136,3 +134,7 @@ Because of this symptom, I concluded that the bug was that the code only account
  ```
  
  I changed the code such that instead of dividing the sum of the non-excluded values by ```arr.length-1```, it divides the sum by a ```double``` named ```counter``` that keeps track of the number non-excluded items. This fixes the bug described above. After making this change, both test cases pass.
+
+## Part Three
+
+I learned new things about computer science from both lab 2 and lab 3. In lab 2, I learned how URI's typed into a search bar are handled and processed by code, as well as how to make the browser respond to requests. In lab 3, I learned the difference between a *symptom* and a *bug* when describing erroneous code; I will begin using these terms in my vocabulary instead of describing everything as an "error." I also learned how buggy code can work perfectly fine for some inputs, and the importance of testing to make sure that code is actually correct.
