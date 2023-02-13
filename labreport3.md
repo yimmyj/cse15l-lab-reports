@@ -119,7 +119,7 @@ find non-fiction -type d -name 'OUP'
 non-fiction/OUP
 ```
 ## -type
-We can filter by the type of the result of ```find``` using ```-type```. In the below command, using ```-type d``` specifies that we're only looking for subdirectories under path ```written_2/non-fiction```. Notice that the ```written_2/non-fiction``` itself is included in the returned list.
+We can filter ```find``` results by our desired type using the ```-type``` option. In the below command, using ```-type d``` specifies that we're only looking for *subdirectories* under the path ```written_2/non-fiction```. Notice that the ```written_2/non-fiction``` path itself is included in the returned list.
 ```
 (base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/non-fiction -type d
 written_2/non-fiction
@@ -130,9 +130,10 @@ written_2/non-fiction/OUP/Rybczynski
 written_2/non-fiction/OUP/Kauffman
 written_2/non-fiction/OUP/Fletcher
 written_2/non-fiction/OUP/Castro
+(base) MacBook-Pro-101:skill-demo1-data jimmy$ 
 ```
 
-We can use ```-type``` to search for files instead, by swiching ```-type d``` with ```type f```. The below command demonstrates searching for all files under the ```writtern_2/non-fiction``` path:
+We can modify the ```-type``` option to return a list of all files instead, by replacing ```-type d``` with ```-type f```. The below command demonstrates searching for and returning all files under the ```writtern_2/non-fiction``` path.
 ```
 (base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/non-fiction -type f
 written_2/non-fiction/.DS_Store
@@ -181,14 +182,25 @@ written_2/non-fiction/OUP/Castro/chL.txt
 written_2/non-fiction/OUP/Castro/chN.txt
 written_2/non-fiction/OUP/Castro/chY.txt
 written_2/non-fiction/OUP/Castro/chO.txt
+(base) MacBook-Pro-101:skill-demo1-data jimmy$ 
 ```
 
+## -name
+
+The ```-name``` option allows us to further filter our ```find``` results to match a certain name. It takes one input, the name of the desired item. The below command demonstrates searching for the ```'IntroMalaysia.txt'``` file, and the output confirms its existence.
 ```
-(base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/travel_guides -type d -name 'berlitz*'
-written_2/travel_guides/berlitz1
-written_2/travel_guides/berlitz2
+(base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/travel_guides/berlitz1 -type f -name 'IntroMalaysia.txt'
+written_2/travel_guides/berlitz1/IntroMalaysia.txt
+(base) MacBook-Pro-101:skill-demo1-data jimmy$ 
 ```
 
+We can also try searching for a file that doesn't exist, like ```"IntroWakanda.txt"```. Nothing will be returned.
+```
+(base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/travel_guides/berlitz1 -type f -name 'IntroWakanda.txt'
+(base) MacBook-Pro-101:skill-demo1-data jimmy$ 
+```
+
+The two commands I just showed aren't too useful, as all they could do is check whether a file matching a given name exists or not. To expand on this, we can use the command line asterisk to return *all* items whose names include our input. The below command demonstrates using the ```-name``` option to return all files under the ```written_2/travel_guides/berlitz1``` path whose names begin with the string "Intro."
 ```
 (base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/travel_guides/berlitz1 -type f -name 'Intro*'
 written_2/travel_guides/berlitz1/IntroMalaysia.txt
@@ -213,4 +225,5 @@ written_2/travel_guides/berlitz1/IntroEgypt.txt
 written_2/travel_guides/berlitz1/IntroLakeDistrict.txt
 written_2/travel_guides/berlitz1/IntroMallorca.txt
 written_2/travel_guides/berlitz1/IntroJapan.txt
+(base) MacBook-Pro-101:skill-demo1-data jimmy$ 
 ```
