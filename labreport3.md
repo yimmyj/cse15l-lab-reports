@@ -152,7 +152,8 @@ written_2/travel_guides/berlitz1/IntroJapan.txt
 I read about this option <a href="https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/"> here </a>.
 
 We can use the ```-size``` options to only return the files larger than or smaller than a given size. This could be useful when identifying particularly large files that are taking up a lot of space. In the below command, we are searching only for files under 10 kilobytes, denoted by ```-10k```.
-```(base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/non-fiction/OUP/ -type f -size -10k
+```
+(base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/non-fiction/OUP/ -type f -size -10k
 written_2/non-fiction/OUP//Castro/chQ.txt
 written_2/non-fiction/OUP//Castro/chW.txt
 written_2/non-fiction/OUP//Castro/chZ.txt
