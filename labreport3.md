@@ -1,7 +1,10 @@
 # Lab Report 3: find
-The ```find``` command can be used to
+The ```find``` command is used to return all items under a directory that matches given criteria. There are many options that can be passed in to make the ```find``` command return exactly what we want; in this lab report, I'll go over four of them.
+
 
 ## -type
+I read about this option <a href="https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/"> here </a>.
+
 We can filter ```find``` results by our desired type using the ```-type``` option. In the below command, using ```-type d``` specifies that we're only looking for *subdirectories* under the path ```written_2/non-fiction```. Notice that the ```written_2/non-fiction``` path itself is included in the returned list.
 ```
 (base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/non-fiction -type d
@@ -69,6 +72,8 @@ written_2/non-fiction/OUP/Castro/chO.txt
 ```
 
 ## -s
+I read about this option from the built-in manual for ```find```, using the command ```man find```.
+
 The ```-s``` option returns the results of ```find``` in sorted order. The below command demonstrates sorting the contents of ```written_2/non-fiction/OUP/Abernathy```. Notice that "ch14" and "ch15" come before "ch2," as the items are compared as Strings instead of numbers.
 ```
 (base) MacBook-Pro-101:skill-demo1-data jimmy$ find -s written_2/non-fiction/OUP/Abernathy
@@ -98,6 +103,8 @@ written_2/non-fiction/OUP//Rybczynski
 ````
 
 ## -name
+
+I read about this option <a href="https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/"> here </a>.
 
 The ```-name``` option allows us to further filter our ```find``` results to match a certain name. It takes one input, the name of the desired item. The below command demonstrates searching for the ```'IntroMalaysia.txt'``` file, and the output confirms its existence.
 ```
@@ -142,17 +149,17 @@ written_2/travel_guides/berlitz1/IntroJapan.txt
 
 ## -size
 
-I read about this command <a href="https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/"> here </a>.
+I read about this option <a href="https://linuxhostsupport.com/blog/how-to-search-files-on-the-linux-terminal/"> here </a>.
 
 We can use the ```-size``` options to only return the files larger than or smaller than a given size. This could be useful when identifying particularly large files that are taking up a lot of space. In the below command, we are searching only for files under 10 kilobytes, denoted by ```-10k```.
-```
-(base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/non-fiction/OUP/ -type f -size -10k
+```(base) MacBook-Pro-101:skill-demo1-data jimmy$ find written_2/non-fiction/OUP/ -type f -size -10k
 written_2/non-fiction/OUP//Castro/chQ.txt
 written_2/non-fiction/OUP//Castro/chW.txt
 written_2/non-fiction/OUP//Castro/chZ.txt
 written_2/non-fiction/OUP//Castro/chN.txt
 written_2/non-fiction/OUP//Castro/chY.txt
 written_2/non-fiction/OUP//Castro/chO.txt
+(base) MacBook-Pro-101:skill-demo1-data jimmy$
 ```
 
 We can also search for files larger than a given size or in between two sizes. The below command demonstrates searching for files larger than 50 kilobytes but smaller than 1 megabyte, denoted by ```+50k``` and ```-1M```, respectively.
