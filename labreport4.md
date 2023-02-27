@@ -1,3 +1,5 @@
+# Lab Report 4
+
 ## Step 4: Log in
 
 Keys pressed: ```<ctrl+v> <enter>``` 
