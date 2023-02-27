@@ -56,7 +56,7 @@ Keys pressed: ```<ctrl> X y <enter>```
 
 This sequence of keys saves the edits to the file and exits it.
 
-## Step 8: Runs the code to demonstrate that the tests now pass
+## Step 8: Run the code to demonstrate that the tests now pass
 
 Keys pressed: ```<up> <up> <up> <enter>```
 
@@ -68,7 +68,7 @@ Keys pressed: ```<up> <up> <up> <enter>```
  
  <img width="1023" alt="Screen Shot 2023-02-26 at 10 16 25 PM" src="https://user-images.githubusercontent.com/69327109/221488682-be970895-9208-4055-acc2-8e61801bb64b.png">
 
-## Step 9: Commits and pushes my changes
+## Step 9: Commit and push the changes
 
 Commands: 
 
