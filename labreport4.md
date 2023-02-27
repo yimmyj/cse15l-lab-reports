@@ -80,6 +80,8 @@ Commands:
 
 This sequence of commands commits and pushes the changes to my Github account.
 
+<img width="1015" alt="Screen Shot 2023-02-26 at 10 31 55 PM" src="https://user-images.githubusercontent.com/69327109/221491131-2d0ddc11-718e-419d-b9c5-e4489f29ff2c.png">
+
 <img width="1010" alt="Screen Shot 2023-02-26 at 10 19 10 PM" src="https://user-images.githubusercontent.com/69327109/221489072-e31335f6-1cd9-4d94-b20d-723be71ef4ba.png">
 
  
