@@ -149,7 +149,7 @@ travel_guides/berlitz2/Cancun-WhereToGo.txt:0
 
 ## -n
 
-If I wanted to know what line a certain pattern was found, I can use the ```-n``` option. Below, I demonstrate using the ```-n``` option with the recursive search ```r``` to find which file the word "Bananas" appears, as well as print its line number.
+If I wanted to know what line a certain pattern was found, I can use the ```-n``` option. Below, I demonstrate using the ```-n``` option with the recursive search ```-r``` to find the file in which the word "Bananas" appears, as well as print its line number.
 
 ```
 (base) jimmy@MacBook-Pro-101 written_2 % grep -rn "Bananas" travel_guides
