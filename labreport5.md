@@ -12,7 +12,8 @@ Instead of having ```grep``` search through just one file or some set of files, 
 Below, I use ```grep``` to recursively find where the word "Bananas" occurs in the entire directory.
 ```
 (base) jimmy@MacBook-Pro-101 written_2 % grep -r "Bananas" *
-written_2/travel_guides/berlitz1/WhatToHongKong.txt:        nightlife, have become almost respectable. Joe Bananas, 23 Luard Road,
+written_2/travel_guides/berlitz1/WhatToHongKong.txt:        nightlife, have become almost respectable. Joe Bananas, 
+23 Luard Road,
 (base) jimmy@MacBook-Pro-101 docsearch %
 ```
 
@@ -158,7 +159,8 @@ If I wanted to know what line a certain pattern was found, I can use the ```-n``
 
 ```
 (base) jimmy@MacBook-Pro-101 written_2 % grep -rn "Bananas" travel_guides
-travel_guides/berlitz1/WhatToHongKong.txt:278:        nightlife, have become almost respectable. Joe Bananas, 23 Luard Road,
+travel_guides/berlitz1/WhatToHongKong.txt:278:        nightlife, have become almost respectable. Joe Bananas, 
+23 Luard Road,
 (base) jimmy@MacBook-Pro-101 written_2 % 
 ```
 We now know that "Bananas" is on line 278 of the ```WhatToHongKong.txt``` file.
@@ -166,9 +168,21 @@ We now know that "Bananas" is on line 278 of the ```WhatToHongKong.txt``` file.
 The ```-n``` option can also be used without ```-r``` to find where a pattern is located in one specific file. Below, I demonstrate searching for the word "southern" in the ```Algarve-Intro.txt``` file, which is located on lines 6, 7, and 16.
 ```
 (base) jimmy@MacBook-Pro-101 written_2 % grep -n "southern" travel_guides/berlitz2/Algarve-Intro.txt
-6:For much of the world, the Algarve is synonymous with Portugal, yet the Portuguese will tell you the exact opposite: the region has little in common with the rest of the country. The southern stretch of coast is more reminiscent of a North African landscape than a European one. It has no cosmopolitan cities, like Lisbon and Porto, which are farther north. Most of Portugal is known for quaint towns, medieval castles, and grand palaces. The Algarve is more recognizable for impenetrable blocks of tourist apartments, hotels, and meticulously manicured golf courses.
-7:And beaches. Think Algarve and the mind pictures long, glorious stretches of golden sands, secluded coves framed by odd ochre-colored rock formations, and deep green waters. With about 160 km (100 miles) of coastline, Portugal’s southern province is one of Europe’s premier beach destinations. The occasionally chilly ocean is the Atlantic, but the Algarve has a sultry Mediterranean feel.
-16:Following the Reconquest of Iberia by Christians, the Algarve led Portugal to glory and fortune. Prince Henry the Navigator established his legendary Navigation School along Portugal’s southern coast (financing expeditions with royalties from the Algarve fishing industry), and intrepid explorers set out in caravels from Lagos and Sagres. In the 15th and 16th centuries, they ushered in an Age of Discovery, rounding Africa’s Cape of Good Hope and eventually reaching India and the Pacific. Others found their way to the Americas and Brazil. Opening world trade routes across the globe, they established Portugal as a maritime superpower. Spices, gold, and diamonds flowed across the seas to Lisbon.
+6:For much of the world, the Algarve is synonymous with Portugal, yet the Portuguese will tell you the exact opposite: 
+the region has little in common with the rest of the country. The southern stretch of coast is more reminiscent of a North 
+African landscape than a European one. It has no cosmopolitan cities, like Lisbon and Porto, which are farther north. Most 
+of Portugal is known for quaint towns, medieval castles, and grand palaces. The Algarve is more recognizable for 
+impenetrable blocks of tourist apartments, hotels, and meticulously manicured golf courses.
+7:And beaches. Think Algarve and the mind pictures long, glorious stretches of golden sands, secluded coves framed by 
+odd ochre-colored rock formations, and deep green waters. With about 160 km (100 miles) of coastline, Portugal’s 
+southern province is one of Europe’s premier beach destinations. The occasionally chilly ocean is the Atlantic, but 
+the Algarve has a sultry Mediterranean feel.
+16:Following the Reconquest of Iberia by Christians, the Algarve led Portugal to glory and fortune. Prince Henry 
+the Navigator established his legendary Navigation School along Portugal’s southern coast (financing expeditions with 
+royalties from the Algarve fishing industry), and intrepid explorers set out in caravels from Lagos and Sagres. In the
+15th and 16th centuries, they ushered in an Age of Discovery, rounding Africa’s Cape of Good Hope and eventually reaching
+India and the Pacific. Others found their way to the Americas and Brazil. Opening world trade routes across the globe,
+they established Portugal as a maritime superpower. Spices, gold, and diamonds flowed across the seas to Lisbon.
 (base) jimmy@MacBook-Pro-101 written_2 %
 ```
 
