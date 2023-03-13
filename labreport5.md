@@ -29,7 +29,7 @@ airport are the hub for every activity in the Bahamas. Government, administratio
 taxes, and furniture shipments for new homes all start
 ... and so on!!!
 ```
-This is where another option comes in.
+This is where the next option comes in.
 
 ## -l
 I read about this option <a href="https://www.geeksforgeeks.org/grep-command-in-unixlinux/"> here </a>. 
