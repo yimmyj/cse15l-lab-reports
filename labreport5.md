@@ -20,7 +20,12 @@ However, sometimes the files containing my specified word has too many extra wor
 ```quote
 (base) jimmy@MacBook-Pro-101 written_2 % grep -r "Bahamas" * 
 travel_guides/berlitz1/WhatToFWI.txt:        waters off the Bahamas, Puerto Rico, and the Virgin Islands, but the
-travel_guides/berlitz2/Bahamas-WhereToGo.txt:It’s not the largest of the Bahamas islands and not the most stunningly beautiful, yet when most people think of the Bahamas they first think of New Providence or its major town, Nassau. The island is only 80 square miles in size yet 180,000 of the 280,000 Bahamians lives here. The town and its port and international airport are the hub for every activity in the Bahamas. Government, administration, taxes, and furniture shipments for new homes all start
+travel_guides/berlitz2/Bahamas-WhereToGo.txt:It’s not the largest of the Bahamas islands and not 
+the most stunningly beautiful, yet when most people think of the Bahamas they first think of 
+New Providence or its major town, Nassau. The island is only 80 square miles in size yet 
+180,000 of the 280,000 Bahamians lives here. The town and its port and international 
+airport are the hub for every activity in the Bahamas. Government, administration, 
+taxes, and furniture shipments for new homes all start
 ... and so on!!!
 ```
 This is where another option comes in.
